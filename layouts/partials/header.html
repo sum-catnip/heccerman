@@ -1,0 +1,14 @@
+<header>
+    <nav class="text-right" id="nav">
+        {{ range .Site.Menus.main -}}
+            <a href="{{ .URL }}">{{ .Name }}</a>
+        {{ end }}
+    </nav>
+    <div class="divider"></div>
+    <nav id="socials">
+        <a href="{{ .Site.BaseURL }}">{{ .Title }}</a>
+        {{ range .Site.Params.socialIcons }}
+            <a href="{{ .url }}" class="icon-{{ .icon }}" alt="{{ .alt }}"></a>
+        {{ end }}
+    </nav>
+</header>

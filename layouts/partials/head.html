@@ -1,0 +1,20 @@
+<head>
+    <title>{{ .Title | default .Site.Title }}</title>
+    <base href="{{ .Site.BaseURL }}">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ with .Description }}
+        <meta name="description" content="{{.}}">
+    {{ end }}
+    {{ with .Params.author }}
+        <meta name="author" content="{{.}}">
+    {{ end }}
+    {{ with .Params.authors }}
+        <meta name="author" content="{{ delimit . "," }}">
+    {{ end }}
+    {{ with .Params.tags }}
+         <meta name="keywords" content="{{ delimit . "," }}">
+    {{ end }}
+    <link rel="canonical" href="{{ .Permalink }}">
+    <link rel="stylesheet" href="css/style.css">
+</head>

@@ -1,0 +1,49 @@
+@-webkit-keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@-moz-keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+@keyframes rainbow {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+
+.divider {
+    background: rgba(0, 0, 0, 0) linear-gradient(270deg, rgb(253, 75, 255), rgb(119, 0, 255), rgb(0, 255, 235)) repeat scroll 0% 0% / 300% 300%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    height: 1px;
+    -webkit-animation: rainbow 4s cubic-bezier(.77,0,.18,1) infinite;
+    -moz-animation: rainbow 4s cubic-bezier(.77,0,.18,1) infinite;
+    animation: rainbow 4s cubic-bezier(.77,0,.18,1) infinite;
+}
+
+a {
+    color: #c8c5c4;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: #c8c5c4;
+    color: #02010a;
+}
+
+#nav a::before {
+    content: "/"
+}
+
+#socials > a:first-child::after {
+    content: " -"
+}
+
+#socials {
+    font-size: medium;
+}

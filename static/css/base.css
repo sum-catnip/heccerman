@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+
+body {
+    color: #c8c5c4;
+    max-width: 800px;
+    margin: auto;
+    padding: 10px;
+    background-image: url("../img/y-so-serious.png");
+    background-repeat: repeat;
+    font-family: 'Fira Code', monospace;
+    font-size: small;
+}
+
+.page {
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    padding: 10px;
+    background-color: #02010a;
+    border: 1px solid #191820;
+}
+
+main {
+    margin: 10px;
+    margin-top: 20px;
+}
