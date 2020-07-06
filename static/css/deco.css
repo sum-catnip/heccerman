@@ -40,6 +40,14 @@ a:hover {
     content: "/"
 }
 
+.post-preview:hover {
+    background-color: #c8c5c4;
+}
+
+.post-preview:hover * {
+    color: #02010a;
+}
+
 #socials > a:first-child::after {
     content: " -"
 }

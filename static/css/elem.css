@@ -1,4 +1,8 @@
-.post-preview * {
+.post-preview {
     display: block;
-    margin-top: 6px;
+    padding: 5px;
+}
+
+.post-preview h1, h2, h3 {
+    margin: 0px;
 }
