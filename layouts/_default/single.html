@@ -1,2 +1,9 @@
 {{ define "main" }}
+<main>
+    <article>
+        <h2><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+        <div> {{ .Content }} </div>
+        <p class="text-right"> {{ .PublishDate }} </p>
+    </article>
+</main>
 {{ end }}
