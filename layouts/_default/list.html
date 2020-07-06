@@ -1,9 +1,12 @@
 {{ define "main" }}
 <main>
-    <div class="post-preview">
-        {{ range .Data.Pages }}
-            <a href="{{ .Permalink }}">{{ .Title }}</a>
-        {{ end }}
-    </div>
+    {{ range .Data.Pages }}
+        <a href="{{ .Permalink }}">
+            <div class="post-preview">
+                <h2>{{ .Title }}</h2>
+                {{ .Description }}
+            </div>
+        </a>
+    {{ end }}
 </main>
 {{ end }}
