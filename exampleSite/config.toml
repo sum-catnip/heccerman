@@ -1,0 +1,60 @@
+baseURL = "http://localhost:1313"
+languageCode = "en-us"
+title = "catnip"
+theme = "heccerman"
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "fruity"
+    tabWidth = 4
+
+  [[params.socialIcons]]
+  icon = "twitter"
+  alt = "Twitter"
+  url = "https://twitter.com/sum_catnip"
+
+  [[params.socialIcons]]
+  icon = "github"
+  alt = "Github"
+  url = "https://github.com/sum-catnip"
+
+  [[params.socialIcons]]
+  icon = "box"
+  alt = "Hackthebox"
+  url = "#"
+
+  [[params.socialIcons]]
+  icon = "mail"
+  alt = "E-Mail"
+  url = "mailto:catnip@catnip.fyi"
+
+  [[params.socialIcons]]
+  icon = "spotify"
+  alt = "Spotify"
+  url = "#"
+  
+  [[params.socialIcons]]
+  icon = "discord"
+  alt = "Discord"
+  url = "https://discord.gg/cVAB5n"
+  
+[menu]
+
+  [[menu.main]]
+  name = "posts"
+  weight = 100
+  identifier = "posts"
+  url = "/posts/"
+
+  [[menu.main]]
+  name = "about"
+  identifier = "about"
+  weight = 300
+  url = "/about/"
