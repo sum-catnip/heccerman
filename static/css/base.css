@@ -16,6 +16,7 @@ body {
     padding: 10px;
     background-color: #02010a;
     border: 1px solid #191820;
+    word-wrap: break-word;
 }
 
 main {
