@@ -6,3 +6,8 @@
 .post-preview h1, h2, h3 {
     margin: 0px;
 }
+
+img{
+    max-width: 100%;
+    height: auto;
+}
