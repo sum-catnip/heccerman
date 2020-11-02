@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Fira+Code&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 
 body {
     color: #c8c5c4;
@@ -7,8 +7,7 @@ body {
     padding: 10px;
     background-image: url("../img/y-so-serious.png");
     background-repeat: repeat;
-    font-family: 'Fira Code', monospace;
-    font-size: small;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .page {
