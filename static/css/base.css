@@ -1,21 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
 
 body {
     color: #c8c5c4;
     max-width: 800px;
     margin: auto;
     padding: 10px;
-    background-image: url("../img/y-so-serious.png");
+    background-image: url("../img/vintage-wallpaper.png");
     background-repeat: repeat;
-    font-family: 'Roboto Mono', monospace;
+    font-family: 'Dosis', sans-serif;
+    font-size: 18px;
+    /*font-family: 'Roboto Mono', monospace;*/
 }
 
 .page {
     box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
     padding: 10px;
-    background-color: #02010a;
+    background-color: #000000;
     border: 1px solid #191820;
     word-wrap: break-word;
+}
+
+code {
+    font-family: 'Source Code Pro', monospace !important;
+    font-size: 14px !important;
 }
 
 main {
