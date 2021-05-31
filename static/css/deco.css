@@ -38,12 +38,12 @@ a:hover {
 
 article div a {
     background-color: rgba(119, 0, 255, 0.3);
+    padding: 0px 2px 0px 2px;
 }
 
 code {
-    border: solid 2px rgba(119, 0, 255, 0.6);
+    border: solid 1px rgb(19 19 19 / 60%);
     border-radius: 1px;
-    padding: 1px;
 }
 
 pre code {
