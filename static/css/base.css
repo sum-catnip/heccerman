@@ -24,8 +24,12 @@ body {
 
 .highlight {
     overflow-x: scroll;
-    font-family: 'Source Code Pro', monospace !important;
-    font-size: 14px !important;
+    font-size: 14px;
+}
+
+:not(pre) > code {
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
 }
 
 main {
